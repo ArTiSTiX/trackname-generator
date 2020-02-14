@@ -1,25 +1,37 @@
 {
   "name": "trackname-generator",
+  "title": "Post-Rock Track Name Generator",
   "version": "1.0.0",
   "description": "A funny generator for Post-Rock song titles",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel demo/index.html --open",
+    "clean": "rm -rf .cache && rm -rf ./docs",
+    "build": "yarn run clean && parcel build demo/index.html -d ./docs --public-url \"./\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArTiSTiX/trackname-generator.git"
-  },
+  "repository": "github:artistix/trackname-generator",
+  "homepage": "https://artistix.github.io/trackname-generator/",
   "keywords": [
     "generator",
     "song",
-    "name"
+    "name",
+    "track"
   ],
-  "author": "Rémi Jarasson",
+  "author": "Rémi Jarasson (https://artistix.github.io)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ArTiSTiX/trackname-generator/issues"
   },
-  "homepage": "https://github.com/ArTiSTiX/trackname-generator#readme"
+  "assetTypesToStringify": [
+    "txt"
+  ],
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-stringify-anything": "^1.2.0",
+    "posthtml-expressions": "^1.1.1",
+    "fetch": "^1.1.0",
+    "whatwg-fetch": "^3.0.0"
+  }
 }
