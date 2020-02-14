@@ -1,0 +1,25 @@
+{
+  "name": "trackname-generator",
+  "version": "1.0.0",
+  "description": "A funny generator for Post-Rock song titles",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArTiSTiX/trackname-generator.git"
+  },
+  "keywords": [
+    "generator",
+    "song",
+    "name"
+  ],
+  "author": "Rémi Jarasson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArTiSTiX/trackname-generator/issues"
+  },
+  "homepage": "https://github.com/ArTiSTiX/trackname-generator#readme"
+}

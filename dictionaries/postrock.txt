@@ -1,0 +1,421 @@
+TPL,%AVT \, %TPL
+TPL,%TPL ? %TPL !,0.1
+TPL,%TPL because of %NPH
+
+TPL,%APH
+TPL,%NPH,5
+
+TPL,%APH and %APH
+TPL,%APH but not %APH
+TPL,%NPH and %NPH
+TPL,%NPH, %NPH and %NPH
+TPL,as %APH as %NPH
+
+TPL,%VRB-ACT-TRS-INF %ADV-PRE %NPH,2
+TPL,%VRB-ACT-TRS-PST %ADV-PRE %NPH,2
+TPL,%VRB-OBJ-INF %ADV-PRE %NPH,2
+TPL,%VRB-OBJ-PST %ADV-PRE %NPH,2
+
+TPL,%NPH-SNG %VPH-SNG,10
+TPL,%NPH-PLU %VPH-PLU,10
+
+TPL,%APH like %NPH
+TPL,like %NPH %ADV-PRE %NPH
+TPL,%APH %ADV-PRE %NPH
+
+TPL,when %NPH-SNG %VPH-SNG
+TPL,when %NPH-PLU %VPH-PLU
+
+TPL,%?AVM %VRB-PSP by %NPH
+
+TPL,%NPH-SNG that %VPH-SNG
+TPL,%NPH-PLU that %VPH-PLU
+TPL,%VRB-OBJ-ING %ADV-PRE %NPH
+
+TPL,%NPH-SNG %VPH-SNG
+TPL,%NPH-PLU %VPH-SNG
+
+TPL,%ADV-PRE %NPH
+TPL,%NPH %ADV-PRE %NPH
+
+
+?APH,%APH,5
+?APH,%APH %ADJ
+?APH,,10
+?APH,,10
+?NOT,not
+?NOT,,5
+?NOT,,5
+?AVM,%AVM
+?AVM,,5
+?AVM,,5
+?AVC,%AVC
+?AVC,,5
+?AVC,,5
+
+NPH-SNG,%?APH %NOU-NCT,3
+NPH-SNG,%?APH %NOU-NCT of %NPH-NOF
+NPH-SNG,%DET-SNG %?APH %NOU-CNT-SNG of %NPH-NOF
+NPH-SNG-UND,%DET-SNG-UND %?APH %NOU-CNT-SNG of %NPH-NOF
+
+NPH-SNG-NOF,%DET-SNG %?APH %NOU-CNT-SNG,10
+NPH-SNG-NOF-UND,%DET-SNG-UND %?APH %NOU-CNT-SNG,5
+
+NPH-PLU,%?APH %NOU-CNT-PLU of %NPH-NOF
+NPH-PLU-NOF,%DET-PLU %?APH %NOU-CNT-PLU,10
+NPH-PLU-NOF-UND,%?APH %NOU-CNT-PLU,5
+
+NPH-SNG,%NOU-SNG 's %NOU-CNT-SNG,0.25
+NPH-SNG,%NOU-PLU 's %NOU-CNT-SNG,0.25
+NPH-PLU,%NOU-SNG 's %NOU-CNT-PLU,0.25
+NPH-PLU,%NOU-PLU 's %NOU-CNT-PLU,0.25
+NPH-SNG,%NPH-SNG %NOU-CNT-SNG,0.5
+NPH-SNG,%NPH-PLU %NOU-CNT-SNG,0.5
+NPH-PLU,%NPH-SNG %NOU-CNT-PLU,0.5
+NPH-PLU,%NPH-PLU %NOU-CNT-PLU,0.5
+
+VPH-SNG-PRS,is %?NOT %?AVM %APH
+VPH-SNG-PST,was %?NOT %?AVM %APH
+VPH-SNG-FUT,will %?NOT be %?AVM %APH
+VPH-SNG-PRS,%VRB-STA-SNG %?NOT %?AVM %APH
+VPH-SNG-PST,%VRB-STA-SNG-PST %?NOT %?AVM %APH
+VPH-SNG-PRS,%?AVM %VRB-ACT-NTR-SNG
+VPH-SNG-PST,%?AVM %VRB-ACT-NTR-PST
+VPH-SNG-PRS,%?AVM %VRB-ACT-TRS-SNG %NPH
+VPH-SNG-PST,%?AVM %VRB-ACT-TRS-PST %NPH
+VPH-SNG-PRS,%?AVM %VRB-OBJ-SNG %ADV-PRE %NPH
+VPH-SNG-PST,%?AVM %VRB-OBJ-SNG-PST %ADV-PRE %NPH
+
+VPH-PLU-PRS,are %?NOT %?AVM %APH
+VPH-PLU-PST,were %?NOT %?AVM %APH
+VPH-PLU-FUT,will %?NOT be %?AVM %APH
+VPH-PLU-PRS,%VRB-STA-PLU %?NOT %?AVM %APH
+VPH-PLU-PST,%VRB-STA-PLU-PST %?NOT %?AVM %APH
+VPH-PLU-PRS,%?AVM %VRB-ACT-NTR-PLU
+VPH-PLU-PST,%?AVM %VRB-ACT-NTR-PST
+VPH-PLU-PRS,%?AVM %VRB-ACT-TRS-PLU %NPH
+VPH-PLU-PST,%?AVM %VRB-ACT-TRS-PST %NPH
+VPH-PLU-PRS,%?AVM %VRB-OBJ-PLU %ADV-PRE %NPH
+VPH-PLU-PST,%?AVM %VRB-OBJ-PLU-PST %ADV-PRE %NPH
+
+VPH-SNG-PRS,%VPH-SNG-PRS %AVT-PRS
+VPH-SNG-PST,%VPH-SNG-PST %AVT-PST
+VPH-SNG-FUT,%VPH-SNG-FUT %AVT-FUT
+
+APH,%?AVC %ADJ,4
+APH,%VRB-ACT-ING,2
+APH,%VRB-TRS-PSP
+APH,%VRB-NTR-PSP
+
+ADJ,acid
+ADJ,alive
+ADJ,angry
+ADJ,asleep
+ADJ,beautiful
+ADJ,brief
+ADJ,brilliant
+ADJ,calm
+ADJ,cold
+ADJ,conscious
+ADJ,cruel
+ADJ,dead
+ADJ,deep
+ADJ,different
+ADJ,electric
+ADJ,empty
+ADJ,false
+ADJ,first
+ADJ,former
+ADJ,fragile
+ADJ,frozen
+ADJ,giant
+ADJ,golden
+ADJ,guilty
+ADJ,happy
+ADJ,invisible
+ADJ,innocent
+ADJ,last
+ADJ,little
+ADJ,lonely
+ADJ,long
+ADJ,loud
+ADJ,mad
+ADJ,magic
+ADJ,majestic
+ADJ,new
+ADJ,past
+ADJ,poor
+ADJ,precious
+ADJ,pure
+ADJ,quiet
+ADJ,sad
+ADJ,scared
+ADJ,second
+ADJ,secret
+ADJ,shiny
+ADJ,slow
+ADJ,soft
+ADJ,strange
+ADJ,strong
+ADJ,sweet
+ADJ,timeless
+ADJ,true
+ADJ,unlikely
+ADJ,warm
+ADJ,wild
+ADJ,wise
+ADJ,wonderful
+ADJ,young
+
+ADJ-CLR,blue
+ADJ-CLR,green
+ADJ-CLR,orange
+ADJ-CLR,purple
+ADJ-CLR,yellow
+ADJ-CLR,pink
+ADJ-CLR,red
+ADJ-CLR,black
+ADJ-CLR,white
+
+NOU-NCT,her
+NOU-NCT,mine
+NOU-NCT,home
+NOU-NCT,everything
+NOU-NCT,everyone
+NOU-NCT,everybody
+NOU-NCT,no one
+NOU-NCT,Death
+NOU-NCT,Heaven
+NOU-NCT,Avalon
+NOU-NCT,Oblivion
+NOU-NCT,nostalgia
+NOU-NCT,stillness
+NOU-NCT,loneliness
+NOU-NCT,sadness
+NOU-NCT,pleasure
+NOU-NCT,glory
+NOU-NCT,love
+NOU-NCT,blood
+NOU-NCT,pursuit
+NOU-NCT,innocence
+NOU-SNG-CNT,truth
+NOU-SNG-PLU-CNT-NCT,god:gods
+NOU-SNG-PLU-CNT,man:men
+NOU-SNG-PLU-CNT,mountain:mountains
+NOU-SNG-PLU-CNT,ocean:oceans
+NOU-SNG-PLU-CNT,sky:skies
+NOU-SNG-PLU-CNT-NCT,life:lives
+NOU-SNG-PLU-CNT,demon:demons
+NOU-SNG-PLU-CNT,cat:cats
+NOU-SNG-PLU-CNT,horse:horses
+NOU-SNG-PLU-CNT,flower:flowers
+NOU-SNG-PLU-CNT,tear:tears
+NOU-SNG-PLU-CNT,dream:dreams
+NOU-SNG-PLU-CNT,suicide:suicides
+NOU-SNG-PLU-CNT,shadow:shadows
+NOU-SNG-PLU-CNT,snow:snows
+NOU-SNG-PLU-CNT,shade:shades
+NOU-SNG-PLU-CNT,color:colors
+NOU-SNG-PLU-CNT,day:days
+NOU-SNG-PLU-CNT-NCT,time:times
+NOU-SNG-PLU-CNT,light:lights
+NOU-SNG-PLU-CNT,sun:suns
+NOU-SNG-PLU-CNT,moon:moons
+NOU-SNG-PLU-CNT,moonlight:moonlights
+NOU-SNG-PLU-CNT-NCT,memory:memories
+NOU-SNG-PLU-CNT,ghost:ghosts
+NOU-SNG-PLU-CNT,path:paths
+NOU-SNG-PLU-CNT,way:ways
+NOU-SNG-PLU-CNT,octopus:octopuses
+NOU-SNG-PLU-CNT,childhood:childhoods
+NOU-SNG-PLU-CNT-NCT,regret:regrets
+NOU-SNG-PLU-CNT,fairytale:fairytales
+NOU-SNG-PLU-CNT,journey:journeys
+NOU-SNG-PLU-CNT,land:lands
+NOU-SNG-PLU-CNT,bound:bounds
+NOU-SNG-PLU-CNT,world:worlds
+NOU-SNG-PLU-CNT,water:waters
+NOU-SNG-PLU-CNT,cave:caves
+NOU-SNG-PLU-CNT,star:stars
+NOU-SNG-PLU-CNT,river:rivers
+NOU-SNG-PLU-CNT,sea:seas
+NOU-SNG-PLU-CNT,season:seasons
+NOU-SNG-PLU-CNT,forest:forests
+NOU-SNG-PLU-CNT,wave:waves
+NOU-SNG-PLU-CNT,night:nights
+NOU-SNG-PLU-CNT,flame:flames
+NOU-SNG-PLU-CNT-NCT,fire:fires
+NOU-SNG-PLU-CNT,wind:winds
+NOU-SNG-PLU-CNT,place:places
+NOU-SNG-PLU-CNT-NCT,remorse:remorses
+NOU-SNG-PLU-CNT,girl:girls
+NOU-SNG-PLU-CNT-NCT,noise:noises
+NOU-SNG-PLU-CNT,horizon:horizons
+NOU-SNG-PLU-CNT-NCT,dawn:dawns
+NOU-SNG-PLU-CNT-NCT,sunrise:sunrises
+NOU-SNG-PLU-CNT,lie:lies
+NOU-SNG-PLU-CNT-NCT,danger:dangers
+NOU-SNG-PLU-CNT-NCT,bird:birds
+NOU-SNG-PLU-CNT-NCT,wolf:wolves
+
+VRB-STA-SNG-PLU-PST-PSP-INF-ING,become:becomes:became:became:becoming
+VRB-STA-SNG-PLU-PST-PSP-INF-ING,feel:feels:felt:felt:feeling
+
+VRB-ACT-NTR-SNG-PLU-PST-INF-ING,sleep:sleeps:slept:slept:sleeping
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,scream:screams:screamed:screamed:screaming
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,dream:dreams:dreamed:dreamed:dreaming
+VRB-ACT-NTR-SNG-PLU-PST-INF-ING,talk:talks:talked:talked:talking
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,speak:speaks:spoke:spoken:speaking
+VRB-ACT-NTR-SNG-PLU-PST-INF-ING,run:runs:runned:runned:running
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,cry:cries:cried:cried:crying
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,fall:falls:fell:fallen:falling
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,die:dies:died:died:dying
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,believe:believes:believed:believed:believing
+VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,stand:stands:stood:stood:standing
+
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,hunt:hunts:hunted:hunted:hunting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,hear:hears:heard:heard:hearing
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,haunt:haunts:haunted:haunted:haunting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,leave:leaves:left:left:leaving
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,fear:fears:feared:feared:fearing
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,lose:loses:lost:lost:losing
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,shift:shifts:shifted:shifted:shifting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,shoot:shoots:shooted:shooted:shooting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,ruin:ruins:ruined:ruined:ruining
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,tell:tells:told:told:telling
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,want:wants:wanted:wanted:wanting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,know:knows:known:known:knowing
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,find:finds:found:found:finding
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,give:gives:gave:given:giving
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,want:wants:wanted:wanted:wanting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,love:loves:loved:loved:loving
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,believe in:believes in:believed in:believed in:believing in
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,watch:watches:watched:watched:watching
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,follow:follows:followed:followed:following
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,see:sees:saw:seen:seeing
+
+VRB-OBJ-SNG-PLU-PST-INF-ING,scream:screams:screamed:screamed:screaming
+VRB-OBJ-SNG-PLU-PST-INF-ING,shout:shouts:shouted:shouted:shouting
+VRB-OBJ-SNG-PLU-PST-INF-ING,look:looks:looked:looked:looking
+VRB-OBJ-ACT-SNG-PLU-PST-PSP-INF-ING,walk:walks:walked:walked:walking
+
+AVC,fully
+AVC,almost
+AVC,too
+AVC,very
+AVC,pretty
+
+AVW,here
+AVW,abroad
+AVW,nearby
+
+ADV-PRE-WHR,towards
+ADV-PRE-WHR,inside
+ADV-PRE-WHR,far from
+ADV-PRE-WHR,above
+ADV-PRE-WHR,below
+ADV-PRE-WHR,behind
+ADV-PRE-WHR,beyond
+ADV-PRE-WHR,away from
+ADV-PRE-WHR,outside
+ADV-PRE-WHR,in
+ADV-PRE-WHR,into
+ADV-PRE-WHR,out of
+ADV-PRE-WHR,at
+ADV-PRE-WHR,across
+ADV-PRE-WHR,between
+ADV-PRE-WHR,next to
+ADV-PRE-WHR,in front of
+ADV-PRE-WHR,against
+ADV-PRE-WHR,along
+ADV-PRE-WHR,by
+ADV-PRE-WHR,around
+ADV-PRE-WHR,all around
+
+ADV-PRE-TIM,before
+ADV-PRE-TIM,after
+ADV-PRE-TIM,since
+ADV-PRE-TIM,till
+ADV-PRE-TIM,until
+ADV-PRE-TIM,following
+
+ADV-PRE,for
+ADV-PRE,about
+ADV-PRE,with
+ADV-PRE,without
+ADV-PRE,like
+
+AVM,secretly
+AVM,fast
+AVM,well
+AVM,quickly
+AVM,easily
+AVM,slowly
+AVM,lowly
+AVM,badly
+AVM,carefully
+AVM,quietly
+AVM,beautifully
+AVM,deeply
+AVM,deadly
+
+AVF,never
+AVF,sometimes
+AVF,often
+AVF,rarely
+AVF,always
+
+AVT-PRS,today
+AVT-PRS,now
+AVT-FUT,tomorrow
+AVT-FUT,later
+AVT-FUT,soon
+AVT-PST,yesterday
+AVT-PST,already
+AVT-PRS-FUT-PST,tonight
+AVT-PRS-FUT-PST,then
+
+DET-SNG-UND,a,5
+DET-SNG-UND,a single
+DET-SNG,another
+DET-SNG,this
+DET-SNG,that
+DET-SNG,each
+DET-SNG,every
+DET-SNG-PLU,the,5
+DET-SNG-PLU,your
+DET-SNG-PLU,my
+DET-SNG-PLU,his
+DET-SNG-PLU,her
+DET-SNG-PLU,their
+DET-PLU,these
+DET-PLU,those
+DET-PLU,many
+DET-PLU,some
+DET-PLU,most
+DET-PLU,few
+DET-PLU,a few
+
+DET-PLU,all the
+DET-PLU,a couple of
+DET-PLU,no
+
+DET-SNG,one
+DET-PLU,two
+DET-PLU,four
+DET-PLU,tons of
+DET-PLU,a thousand
+DET-PLU,millions of
+
+#AVW,there
+#AVW,back
+#AVW,anywhere
+#AVC,just
+
+LOWERCASE,in
+LOWERCASE,on
+LOWERCASE,of
+LOWERCASE,the
+LOWERCASE,a
+LOWERCASE,an
+LOWERCASE,and
