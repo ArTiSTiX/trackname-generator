@@ -1,4 +1,3 @@
-TPL,%AVT \, %TPL
 TPL,%TPL ? %TPL !,0.1
 TPL,%TPL because of %NPH
 
@@ -44,14 +43,16 @@ TPL,%NPH %ADV-PRE %NPH
 ?APH,,10
 ?APH,,10
 ?NOT,not
-?NOT,,5
-?NOT,,5
+?NOT,,10
 ?AVM,%AVM
-?AVM,,5
-?AVM,,5
+?AVM,,10
 ?AVC,%AVC
-?AVC,,5
-?AVC,,5
+?AVC,,10
+
+?DONT-SNG,does not
+?DONT-SNG,,10
+?DONT-PLU,do not
+?DONT-PLU,,10
 
 NPH-SNG,%?APH %NOU-NCT,3
 NPH-SNG,%?APH %NOU-NCT of %NPH-NOF
@@ -77,8 +78,7 @@ NPH-PLU,%NPH-PLU %NOU-CNT-PLU,0.5
 VPH-SNG-PRS,is %?NOT %?AVM %APH
 VPH-SNG-PST,was %?NOT %?AVM %APH
 VPH-SNG-FUT,will %?NOT be %?AVM %APH
-VPH-SNG-PRS,%VRB-STA-SNG %?NOT %?AVM %APH
-VPH-SNG-PST,%VRB-STA-SNG-PST %?NOT %?AVM %APH
+
 VPH-SNG-PRS,%?AVM %VRB-ACT-NTR-SNG
 VPH-SNG-PST,%?AVM %VRB-ACT-NTR-PST
 VPH-SNG-PRS,%?AVM %VRB-ACT-TRS-SNG %NPH
@@ -89,8 +89,7 @@ VPH-SNG-PST,%?AVM %VRB-OBJ-SNG-PST %ADV-PRE %NPH
 VPH-PLU-PRS,are %?NOT %?AVM %APH
 VPH-PLU-PST,were %?NOT %?AVM %APH
 VPH-PLU-FUT,will %?NOT be %?AVM %APH
-VPH-PLU-PRS,%VRB-STA-PLU %?NOT %?AVM %APH
-VPH-PLU-PST,%VRB-STA-PLU-PST %?NOT %?AVM %APH
+
 VPH-PLU-PRS,%?AVM %VRB-ACT-NTR-PLU
 VPH-PLU-PST,%?AVM %VRB-ACT-NTR-PST
 VPH-PLU-PRS,%?AVM %VRB-ACT-TRS-PLU %NPH
@@ -98,9 +97,21 @@ VPH-PLU-PST,%?AVM %VRB-ACT-TRS-PST %NPH
 VPH-PLU-PRS,%?AVM %VRB-OBJ-PLU %ADV-PRE %NPH
 VPH-PLU-PST,%?AVM %VRB-OBJ-PLU-PST %ADV-PRE %NPH
 
-VPH-SNG-PRS,%VPH-SNG-PRS %AVT-PRS
-VPH-SNG-PST,%VPH-SNG-PST %AVT-PST
-VPH-SNG-FUT,%VPH-SNG-FUT %AVT-FUT
+VPH-SNG-PRS,%?DONT-SNG %VRB-STA-SNG
+VPH-SNG-PRS,%?DONT-PLU %VRB-STA-PLU
+VPH-PLU-PRS,%VRB-STA-PLU %?NOT %?AVM %APH
+VPH-PLU-PST,%VRB-STA-PLU-PST %?NOT %?AVM %APH
+VPH-SNG-PST,has %?NOT %VRB-STA-PSP
+VPH-PLU-PST,have %?NOT %VRB-STA-PSP
+VPH-SNG-PST,has %?NOT %VRB-ACT-PSP %ADV-PRE %NPH
+VPH-PLU-PST,have %?NOT %VRB-ACT-PSP %ADV-PRE %NPH
+
+VPH-SNG,%VPH-SNG-PRS %AVT-PRS
+VPH-SNG,%VPH-SNG-PST %AVT-PST
+VPH-SNG,%VPH-SNG-FUT %AVT-FUT
+VPH-PLU,%VPH-PLU-PRS %AVT-PRS
+VPH-PLU,%VPH-PLU-PST %AVT-PST
+VPH-PLU,%VPH-PLU-FUT %AVT-FUT
 
 APH,%?AVC %ADJ,4
 APH,%VRB-ACT-ING,2
@@ -165,6 +176,7 @@ ADJ,warm
 ADJ,wild
 ADJ,wise
 ADJ,wonderful
+ADJ,wound up
 ADJ,young
 
 ADJ-CLR,blue
@@ -258,41 +270,39 @@ NOU-SNG-PLU-CNT-NCT,danger:dangers
 NOU-SNG-PLU-CNT-NCT,bird:birds
 NOU-SNG-PLU-CNT-NCT,wolf:wolves
 
-VRB-STA-SNG-PLU-PST-PSP-INF-ING,become:becomes:became:became:becoming
-VRB-STA-SNG-PLU-PST-PSP-INF-ING,feel:feels:felt:felt:feeling
-
-VRB-ACT-NTR-SNG-PLU-PST-INF-ING,sleep:sleeps:slept:slept:sleeping
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,scream:screams:screamed:screamed:screaming
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,dream:dreams:dreamed:dreamed:dreaming
-VRB-ACT-NTR-SNG-PLU-PST-INF-ING,talk:talks:talked:talked:talking
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,speak:speaks:spoke:spoken:speaking
-VRB-ACT-NTR-SNG-PLU-PST-INF-ING,run:runs:runned:runned:running
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,cry:cries:cried:cried:crying
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,fall:falls:fell:fallen:falling
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,die:dies:died:died:dying
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,believe:believes:believed:believed:believing
-VRB-ACT-NTR-SNG-PLU-PST-PSP-INF-ING,stand:stands:stood:stood:standing
+VRB-ACT-STA-NTR-SNG-PLU-PST-INF-ING,sleep:sleeps:slept:slept:sleeping
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,scream:screams:screamed:screamed:screaming
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,dream:dreams:dreamed:dreamed:dreaming
+VRB-ACT-STA-NTR-SNG-PLU-PST-INF-ING,talk:talks:talked:talked:talking
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,speak:speaks:spoke:spoken:speaking
+VRB-ACT-STA-NTR-SNG-PLU-PST-INF-ING,run:runs:runned:runned:running
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,cry:cries:cried:cried:crying
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,fall:falls:fell:fallen:falling
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,die:dies:died:dead:dying
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,believe:believes:believed:believed:believing
+VRB-ACT-STA-NTR-SNG-PLU-PST-PSP-INF-ING,stand:stands:stood:stood:standing
 
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,hunt:hunts:hunted:hunted:hunting
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,hear:hears:heard:heard:hearing
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,haunt:haunts:haunted:haunted:haunting
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,leave:leaves:left:left:leaving
-VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,fear:fears:feared:feared:fearing
+VRB-ACT-STA-TRS-SNG-PLU-PST-PSP-INF-ING,fear:fears:feared:feared:fearing
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,lose:loses:lost:lost:losing
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,shift:shifts:shifted:shifted:shifting
-VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,shoot:shoots:shooted:shooted:shooting
+VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,shoot:shoots:shot:shot:shooting
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,ruin:ruins:ruined:ruined:ruining
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,tell:tells:told:told:telling
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,want:wants:wanted:wanted:wanting
-VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,know:knows:known:known:knowing
+VRB-ACT-STA-TRS-SNG-PLU-PST-PSP-INF-ING,know:knows:known:known:knowing
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,find:finds:found:found:finding
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,give:gives:gave:given:giving
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,want:wants:wanted:wanted:wanting
-VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,love:loves:loved:loved:loving
+VRB-ACT-STA-TRS-SNG-PLU-PST-PSP-INF-ING,love:loves:loved:loved:loving
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,believe in:believes in:believed in:believed in:believing in
-VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,watch:watches:watched:watched:watching
+VRB-ACT-STA-TRS-SNG-PLU-PST-PSP-INF-ING,watch:watches:watched:watched:watching
 VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,follow:follows:followed:followed:following
-VRB-ACT-TRS-SNG-PLU-PST-PSP-INF-ING,see:sees:saw:seen:seeing
+VRB-ACT-STA-TRS-SNG-PLU-PST-PSP-INF-ING,see:sees:saw:seen:seeing
+VRB-ACT-STA-TRS-SNG-PLU-PST-PSP-INF-ING,remember:remembers:remembered:remembered:remembering
 
 VRB-OBJ-SNG-PLU-PST-INF-ING,scream:screams:screamed:screamed:screaming
 VRB-OBJ-SNG-PLU-PST-INF-ING,shout:shouts:shouted:shouted:shouting
@@ -377,6 +387,7 @@ AVT-PRS-FUT-PST,then
 
 DET-SNG-UND,a,5
 DET-SNG-UND,a single
+DET-SNG-UND,a patch of
 DET-SNG,another
 DET-SNG,this
 DET-SNG,that
@@ -398,11 +409,14 @@ DET-PLU,a few
 
 DET-PLU,all the
 DET-PLU,a couple of
+
 DET-PLU,no
 
 DET-SNG,one
 DET-PLU,two
 DET-PLU,four
+DET-PLU,seven
+DET-PLU,thirteen
 DET-PLU,tons of
 DET-PLU,a thousand
 DET-PLU,millions of
